@@ -1,5 +1,23 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
-
 body{
     background: darkgreen;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.mycard{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    border-radius: 15px;
+}
+.pips{
+    font-size: 80px;
+}
+h1{
+    font-size: 130px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer-pip{
+    transform: rotate(180deg);
 }
